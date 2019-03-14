@@ -2,19 +2,13 @@
     margin: 0;
     padding: 0;
   }
-  .container-fluid {
-    width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 .navbar-light .navbar-nav .nav-link.active{
     color: green;
     font-size: 16px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color:red;
+    color:white;
     font-size: 16px;
 }
 .logo img{
@@ -25,3 +19,40 @@
 .navbar-nav{
     margin-top: 25px;
 }
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 190px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.carousel-caption h2{
+    border: 2px solid white;
+    max-width: 670px;
+    margin: 0 auto;
+    font-size: 100px;
+    padding: 10px;
+}
+.carousel-caption h3{
+    font-size: 40px;
+}
+.carousel-caption h4{
+    font-size: 25px;
+}
+span{
+    color:#87d37c ;
+}
+
